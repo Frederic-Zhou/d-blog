@@ -1,8 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "hello-friend"
-paginate = 5
-title = 'Frederic's Blog'
+paginate = 10
+title = "Frederic's D-Blog"
 
 
 [languages]
@@ -10,7 +10,7 @@ title = 'Frederic's Blog'
     title = "Frederic's Blog"
     subtitle = "deploy on ipfs"
     keywords = "tech,ipfs,coder"
-    copyright = "dawngrp.com"
+    copyright = "Copyright © 2022 frederic. All rights reserved."
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -18,25 +18,25 @@ title = 'Frederic's Blog'
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatSingle = "2006-01-02 15:04:05"
+    dateFormatList = "2006-01-02 15:04:05"
     # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
+    lastModDisplay = "Modified:"
 
     [languages.en.params.logo]
-      logoText = "Frederic"
+      logoText = "Frederic's D-Blog"
       logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+    # [languages.en.menu]
+    #   [[languages.en.menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     url = "/about"
+    #   [[languages.en.menu.main]]
+    #     identifier = "showcase"
+    #     name = "Showcase"
+    #     url = "/showcase"
