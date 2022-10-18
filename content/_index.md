@@ -2,7 +2,9 @@
 framed = true
 +++
 
-### :tada: Welcome to this blog :tada:
+### :tada: Welcome :tada:
 
-This blog will later share the research and development experience of decentralized applications
+This blog will share my experience in learning and developing decentralized programs
 :smile:
+
+Base on [ipfs](https://ipfs.io) , [hugo](https://gohugo.io) (theme:[hello-friend](https://github.com/panr/hugo-theme-hello-friend))
