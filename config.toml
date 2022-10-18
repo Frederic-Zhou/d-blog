@@ -5,8 +5,10 @@ paginate = 10
 title = "Frederic's D-Blog"
 
 enableEmoji = true
-
+ 
 [params]
+
+  
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -33,7 +35,7 @@ enableEmoji = true
 [languages]
   [languages.en]
     title = "Frederic's Blog"
-    subtitle = "deploy on ipfs"
+    subtitle = "D-Blog"
     keywords = "tech,ipfs,coder"
     copyright = "Copyright © 2022 frederic. All rights reserved."
     menuMore = "Show more"
