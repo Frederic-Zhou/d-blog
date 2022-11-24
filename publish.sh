@@ -1,4 +1,9 @@
 #!/bin/sh
 hugo -D
 echo 'ipfs name publishing...'
-ipfs name publish --key blog $(ipfs add -Q -r public/)
+cid=$(ipfs add -Q -r public/)
+
+echo $cid
+
+ipfs name publish --key blog $cid
+ipfs pin add $cid
